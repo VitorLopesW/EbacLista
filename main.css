@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+        --s: 100px; /* control the size */
+        --c1: #050706;
+        --c2: #0a0c0c;
+        
+        --_g: 
+           var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+           var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+        background:
+          radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+          radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+          var(--c1);
+        background-size: var(--s) var(--s);      
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stroke{
+    text-decoration: line-through;
+    color: rgba(255,255,255, 0.1);
+}
+
+*{
+  font-size: 30px;
+  text-align:  center;
+
+}
+
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.trashCan{
+  font-size: 20px!important;
+}
